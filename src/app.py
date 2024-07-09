@@ -39,3 +39,5 @@ with st.form(key='predict_form'):
         previsao = model_saved.predict(data)
 
         st.write(f'Valor estimado: R$ {previsao[0]:.2f}') 
+
+st.subheader("Version 0.1.0 | created by Deyvid Jaguaribe")
