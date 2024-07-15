@@ -41,3 +41,4 @@ with st.form(key='predict_form'):
         st.write(f'Valor estimado: R$ {previsao[0]:.2f}') 
 
 st.subheader("Version 0.1.0 | created by Deyvid Jaguaribe")
+st.subheader("* Dados simulados, veja mais sobre o projeto em: https://github.com/DeyvidJLira/fiap-iadev-project-fase1/tree/main")
