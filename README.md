@@ -4,6 +4,13 @@ Projeto destinado ao desafio da fase 1 do curso de pós graduação "AI para dev
 ## Contexto
 Dado um conjunto fictício de dados, tentar prever o valor à ser pago de plano de saúde.
 
+## Rodando a aplicação
+> No Google Colab
+>> Basta executar o código contido em ./src/app.ipynb
+
+> No terminal
+>> Execute: *python -m streamlit run ./src/app.py*
+
 ## Como estar organizado
 O projeto é formado pelas seguintes pastas e arquivos, com os respectivos propósitos:
 > - data -> destinado à conter arquivos de dados, no caso em csv;
@@ -14,6 +21,7 @@ O projeto é formado pelas seguintes pastas e arquivos, com os respectivos prop�
 >> - my_model.pkl -> modelo gerado pelo script *step_3_creating_model.ipynb*.
 > - src -> destinado à conter código fonte do projeto.
 >> - app.py -> aplicação para poder visualizar o form de preenchimento para previsão;
+>> - app.ipynb -> aplicação para poder visualizar o form de preenchimento para previsão no Colab;
 >> - constants.py -> arquivo constantes;
 >> - map.py -> maps para facilitar uso de categorias;
 >> - save_model_manager.py -> manager para salvar e carregar modelos;
