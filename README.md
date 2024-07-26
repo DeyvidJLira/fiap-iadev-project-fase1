@@ -6,10 +6,7 @@ Dado um conjunto fictício de dados, tentar prever o valor à ser pago de plano 
 
 ## Rodando a aplicação
 > No Google Colab
->> Basta executar o código contido em ./src/app.ipynb
-
-> No terminal
->> Execute: *python -m streamlit run ./src/app.py*
+>> Basta executar o código contido em ./src/start_app.ipynb
 
 ## Como estar organizado
 O projeto é formado pelas seguintes pastas e arquivos, com os respectivos propósitos:
@@ -18,20 +15,21 @@ O projeto é formado pelas seguintes pastas e arquivos, com os respectivos prop�
 >> - processed.csv -> arquivo de dados pré-processados, gerado a partir do script *step_1_data_process.ipynb*;
 >> - final.csv -> arquivo de dados final, gerado a partir do script *step_3_creating_model.ipynb*.
 > - model -> destinado à conter modelos já gerados para facilitar uso posterior;
->> - my_model.pkl -> modelo gerado pelo script *step_3_creating_model.ipynb*.
+>> - model_name.pkl -> modelo gerado pelo script *step_3_creating_model.ipynb*.
 > - src -> destinado à conter código fonte do projeto.
->> - app.py -> aplicação para poder visualizar o form de preenchimento para previsão;
->> - app.ipynb -> aplicação para poder visualizar o form de preenchimento para previsão no Colab;
->> - constants.py -> arquivo constantes;
->> - map.py -> maps para facilitar uso de categorias;
+>> - start_app.ipynb -> aplicação para poder visualizar o form de preenchimento para previsão no Colab;
+>> - constants.py -> arquivo de constantes;
 >> - save_model_manager.py -> manager para salvar e carregar modelos;
 >> - step_1_data_process.ipynb -> processar os dados contido em *raw.csv*;
 >> - step_2_data_analyzing.ipynb -> analisar os dados contido em *processed.csv*;
->> - step_3_creating_model.ipynb -> realizar ajustes finais e cria o modelo baseado nos dados contido em *processed.csv*.
+>> - step_3_creating_model.ipynb -> realizar ajustes finais e cria o modelo baseado nos dados contido em *processed.csv;
+>> - train_model.py -> contém as classes para treinamento de modelo;
+>> - util.py -> contém classe utilitária para cálculos.
 
 ## Screenshots
 ![Form](./img/screenshot_1.PNG)
-![Form submitted](./img/screenshot_2.PNG)
+![Form submetido](./img/screenshot_2.PNG)
+![Testando outro modelo](./img/screenshot_3.PNG)
 
 ## Créditos
 Copyright (C) by Deyvid Jaguaribe
