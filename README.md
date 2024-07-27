@@ -8,8 +8,8 @@ Dado um conjunto fictício de dados, tentar prever o valor à ser pago de plano 
 [![Ver no Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1gdghr-bwtZNTSLGELOeBupvb-38L8kjk?usp=sharing)
 
 ## Rodando a aplicação
-> Basta executar todos os scripts contidos em *Passo 0: Setup*;
-> Executar a função *build_and_start_app()*.
+> - Basta executar todos os scripts contidos em *Passo 0: Setup*;
+> - Executar a função *build_and_start_app()*.
 
 ## Como estar organizado
 O projeto é formado pelas seguintes pastas e arquivos, com os respectivos propósitos:
