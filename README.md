@@ -4,6 +4,9 @@ Projeto destinado ao desafio da fase 1 do curso de pós graduação "AI para dev
 ## Contexto
 Dado um conjunto fictício de dados, tentar prever o valor à ser pago de plano de saúde.
 
+## Quer ver no Google Colab?
+Acesse: https://colab.research.google.com/drive/1gdghr-bwtZNTSLGELOeBupvb-38L8kjk?usp=sharing
+
 ## Rodando a aplicação
 > No Google Colab
 >> Basta executar o código contido em ./src/start_app.ipynb
