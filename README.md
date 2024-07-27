@@ -12,6 +12,7 @@ Acesse: https://colab.research.google.com/drive/1gdghr-bwtZNTSLGELOeBupvb-38L8kj
 
 ## Como estar organizado
 O projeto é formado pelas seguintes pastas e arquivos, com os respectivos propósitos:
+> - main.ipynb - arquivo com todo código fonte do projeto para ser executado no Google Colab;
 > - data -> destinado à conter arquivos de dados, no caso em csv;
 >> - raw.csv -> arquivo de dados base;
 >> - processed.csv -> arquivo de dados pré-processados, gerado a partir do script *step_1_data_process.ipynb*;
