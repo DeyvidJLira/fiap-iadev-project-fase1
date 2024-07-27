@@ -5,29 +5,21 @@ Projeto destinado ao desafio da fase 1 do curso de pós graduação "AI para dev
 Dado um conjunto fictício de dados, tentar prever o valor à ser pago de plano de saúde.
 
 ## Quer ver no Google Colab?
-Acesse: https://colab.research.google.com/drive/1gdghr-bwtZNTSLGELOeBupvb-38L8kjk?usp=sharing
+[![Ver no Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1gdghr-bwtZNTSLGELOeBupvb-38L8kjk?usp=sharing)
 
 ## Rodando a aplicação
-> Basta executar o código contido em ./src/start_app.ipynb
+> Basta executar todos os scripts contidos em *Passo 0: Setup*;
+> Executar a função *build_and_start_app()*.
 
 ## Como estar organizado
 O projeto é formado pelas seguintes pastas e arquivos, com os respectivos propósitos:
-> - main.ipynb - arquivo com todo código fonte do projeto para ser executado no Google Colab;
+> - main.ipynb - arquivo com todo código fonte do projeto para ser executado no Google Colab, explicação sobre as seções estão contidas nele;
 > - data -> destinado à conter arquivos de dados, no caso em csv;
 >> - raw.csv -> arquivo de dados base;
->> - processed.csv -> arquivo de dados pré-processados, gerado a partir do script *step_1_data_process.ipynb*;
->> - final.csv -> arquivo de dados final, gerado a partir do script *step_3_creating_model.ipynb*.
+>> - processed.csv -> arquivo de dados pré-processados, gerado a partir dos scripts contidos no *Passo 1: Processamento dos dados*;
+>> - final.csv -> arquivo de dados final, gerado a partir dos scripts contidos no *Passo 3: Construindo o modelo*.
 > - model -> destinado à conter modelos já gerados para facilitar uso posterior;
->> - model_name.pkl -> modelo gerado pelo script *step_3_creating_model.ipynb*.
-> - src -> destinado à conter código fonte do projeto.
->> - start_app.ipynb -> aplicação para poder visualizar o form de preenchimento para previsão no Colab;
->> - constants.py -> arquivo de constantes;
->> - save_model_manager.py -> manager para salvar e carregar modelos;
->> - step_1_data_process.ipynb -> processar os dados contido em *raw.csv*;
->> - step_2_data_analyzing.ipynb -> analisar os dados contido em *processed.csv*;
->> - step_3_creating_model.ipynb -> realizar ajustes finais e cria o modelo baseado nos dados contido em *processed.csv;
->> - train_model.py -> contém as classes para treinamento de modelo;
->> - util.py -> contém classe utilitária para cálculos.
+>> - model_name.pkl -> modelo gerado pelos scripts contidos no *Passo 3: Construindo o modelo*.
 
 ## Screenshots
 ![Form](./img/screenshot_1.PNG)
