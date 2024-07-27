@@ -26,5 +26,18 @@ O projeto é formado pelas seguintes pastas e arquivos, com os respectivos prop�
 ![Form submetido](./img/screenshot_2.PNG)
 ![Testando outro modelo](./img/screenshot_3.PNG)
 
+## Avaliando os modelos
+
+### Gradient Boosting Regressor
+![Gradient Boosting Regressor Evaluate](./img/gradient_boosting_regressor_evaluate.PNG)
+### Linear Regression
+![Linear Regression Evaluate](./img/linear_regression_evaluate.PNG)
+### Lasso Regression
+![Lasso Regression Evaluate](./img/lasso_regression_evaluate.PNG)
+### Ridge Regression
+![Ridge Regression Evaluate](./img/ridge_regression_evaluate.PNG)
+### Elastic Net Regression
+![Elastic Net Regression Evaluate](./img/elastic_net_regression_evaluate.PNG)
+
 ## Créditos
 Copyright (C) by Deyvid Jaguaribe
