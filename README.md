@@ -38,6 +38,10 @@ O projeto é formado pelas seguintes pastas e arquivos, com os respectivos prop�
 ![Ridge Regression Evaluate](./img/ridge_regression_evaluate.PNG)
 ### Elastic Net Regression
 ![Elastic Net Regression Evaluate](./img/elastic_net_regression_evaluate.PNG)
+### Support Vector Regression
+![SVR Evaluate](./img/svr_evaluate.PNG)
+### Random Forest Regressor
+![Random Forest Regressor Evaluate](./img/random_forest_regressor_evaluate.PNG)
 
 ## Créditos
 Copyright (C) by Deyvid Jaguaribe
