@@ -8,8 +8,7 @@ Dado um conjunto fictício de dados, tentar prever o valor à ser pago de plano 
 Acesse: https://colab.research.google.com/drive/1gdghr-bwtZNTSLGELOeBupvb-38L8kjk?usp=sharing
 
 ## Rodando a aplicação
-> No Google Colab
->> Basta executar o código contido em ./src/start_app.ipynb
+> Basta executar o código contido em ./src/start_app.ipynb
 
 ## Como estar organizado
 O projeto é formado pelas seguintes pastas e arquivos, com os respectivos propósitos:
